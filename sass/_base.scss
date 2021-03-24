@@ -21,3 +21,15 @@ $font-display: 'Josefin Sans', sans-serif;
   padding: 0;
   box-sizing: inherit;
 }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 10px / 16px (browser default) = 62.5% --> 1rem = 10px
+}
+
+body {
+  font-family: $font-primary;
+  color: $color-grey-dark-2;
+  font-weight: 300;
+  line-height: 1.6;
+}
