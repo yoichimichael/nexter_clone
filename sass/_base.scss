@@ -37,5 +37,5 @@ body {
 .container {
   display: grid;
   // 'auto' is default setting for min-content; left in for learning
-  grid-template-rows: 80vh min-content auto;
+  grid-template-rows: 80vh min-content auto 40vw repeat(3, min-content);
 }
