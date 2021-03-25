@@ -33,3 +33,9 @@ body {
   font-weight: 300;
   line-height: 1.6;
 }
+
+.container {
+  display: grid;
+  // 'auto' is default setting for min-content; left in for learning
+  grid-template-rows: 80vh min-content auto;
+}
