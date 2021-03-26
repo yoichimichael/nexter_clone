@@ -32,7 +32,8 @@ body {
   background-color: #101d2c; }
 
 .features {
-  background-color: #aaa; }
+  background-color: #aaa;
+  grid-column: center-start / center-end; }
 
 .story__pictures {
   background-color: #c69963; }
@@ -44,7 +45,9 @@ body {
   background-color: #101d2c; }
 
 .gallery {
-  background-color: #54483A; }
+  background-color: #54483A;
+  grid-column: full-start / full-end; }
 
 .footer {
-  background-color: #101d2c; }
+  background-color: #101d2c;
+  grid-column: full-start / full-end; }
