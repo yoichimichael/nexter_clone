@@ -40,6 +40,14 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 6rem; }
 
+.feature__icon {
+  fill: #c69963;
+  width: 4.5rem;
+  height: 4.5rem; }
+
+.feature__text {
+  font-size: 1.7rem; }
+
 .story__pictures {
   background-color: #c69963;
   grid-column: full-start / col-end 4; }
