@@ -9,10 +9,15 @@
     grid-column: col-start 5 / full-end 4;
 
     padding: 6rem 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
   }
 
   &__text {
     font-size: 1.5rem;
     font-size: italic;
+    margin-bottom: 4rem;
   }
 }
