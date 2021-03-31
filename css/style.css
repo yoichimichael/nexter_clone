@@ -134,6 +134,13 @@ body {
 .story__pictures {
   background-color: #c69963;
   grid-column: full-start/col-end 4;
+  display: grid;
+}
+.story__img--1 {
+  width: 100%;
+}
+.story__img--2 {
+  width: 100%;
 }
 .story__content {
   background-color: #f9f7f6;
