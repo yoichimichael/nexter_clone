@@ -95,6 +95,27 @@ body {
   grid-row: 1/-1;
 }
 
+.nav-btn {
+  border: none;
+  border-radius: 0;
+  background-color: #fff;
+  height: 2px;
+  width: 4.5rem;
+}
+.nav-btn::before, .nav-btn::after {
+  content: "";
+  display: block;
+  background-color: #fff;
+  height: 2px;
+  width: 4.5rem;
+}
+.nav-btn::before {
+  transform: translateY(-1.5rem);
+}
+.nav-btn::after {
+  transform: translateY(1.5rem);
+}
+
 .header {
   background-color: #54483A;
   grid-column: full-start/col-end 6;
