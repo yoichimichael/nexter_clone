@@ -93,6 +93,8 @@ body {
   background-color: #c69963;
   grid-column: sidebar-start/sidebar-end;
   grid-row: 1/-1;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-btn {
@@ -101,6 +103,7 @@ body {
   background-color: #fff;
   height: 2px;
   width: 4.5rem;
+  margin-top: 4rem;
 }
 .nav-btn::before, .nav-btn::after {
   content: "";
@@ -113,7 +116,7 @@ body {
   transform: translateY(-1.5rem);
 }
 .nav-btn::after {
-  transform: translateY(1.5rem);
+  transform: translateY(1.3rem);
 }
 
 .header {
