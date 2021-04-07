@@ -2,8 +2,11 @@
   background-color: $color-secondary;
   grid-column: col-start 7 / full-end;
   padding: 3rem;
+
   display: grid;
-  align-items: center;
+  align-content: center;
+  justify-content: center;
+  grid-row-gap: 2rem;
   justify-items: center;
 
   &__list {
