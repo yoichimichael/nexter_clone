@@ -14,6 +14,10 @@ $color-grey-dark-2: #6D5D4B;
 $font-primary: 'Nunito', sans-serif;
 $font-display: 'Josefin Sans', sans-serif;
 
+// RESPONSIVE BREAKPOINTS
+$bp-largest: 75em; // 1200px/16 === 75em;
+$bp-large: 62.5em; // 1000px / 16 === 62.5em;
+
 *,
 *::before,
 *::after {
@@ -24,7 +28,13 @@ $font-display: 'Josefin Sans', sans-serif;
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%; // 10px / 16px (browser default) = 62.5% --> 1rem = 10px
+  font-size: 62.5%; // 10px / 16px (browser default) = 62.5% --> this is so that 1rem will equal 10px
+
+  @media only screen and (max-width: $bp-largest) {
+    // reduces font-szie to 8px
+    font-size: 50%;
+  }
+
 }
 
 body {
